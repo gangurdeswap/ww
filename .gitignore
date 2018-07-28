@@ -1,0 +1,11 @@
+/nbproject/
+/nbproject/private/
+/nbproject/project.properties
+/nbproject/project.xml
+/vendor
+storage/
+/storage/framework/views/
+/storage/framework/sessions/
+/storage/framework/cache/
+composer.lock
+.env
