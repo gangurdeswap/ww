@@ -9,3 +9,4 @@ storage/
 /storage/framework/cache/
 composer.lock
 .env
+public/uploads/

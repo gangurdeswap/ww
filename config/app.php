@@ -154,7 +154,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        \App\EnlModules\EnlServiceProvider::class,
+        \App\Modules\ModServiceProvider::class,
         Barryvdh\TranslationManager\ManagerServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
     ],

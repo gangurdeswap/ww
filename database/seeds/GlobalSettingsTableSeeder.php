@@ -13,7 +13,7 @@ class GlobalSettingsTableSeeder extends Seeder {
         DB::table('global_settings')->insert([
             [
                 'name' => 'sitename',
-                'value' => 'Entyo Learning',
+                'value' => 'Swap test',
                 'field_type' => 1
             ],
             [

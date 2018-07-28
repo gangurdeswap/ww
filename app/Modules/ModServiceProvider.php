@@ -1,11 +1,11 @@
 <?php
 
-namespace App\EnlModules;
+namespace App\Modules;
 
-class EnlServiceProvider extends \Illuminate\Support\ServiceProvider {
+class ModServiceProvider extends \Illuminate\Support\ServiceProvider {
 
     public function boot() {
-        $modules = config("enlmodules.modules");
+        $modules = config("modules.modules");
         foreach ($modules as $module) {
             if (file_exists(__DIR__ . '/' . $module . '/routes.php')) {
                 include __DIR__ . '/' . $module . '/routes.php';
